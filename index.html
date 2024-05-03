@@ -8,9 +8,18 @@
 </head>
 <body>
     <h1>LISTA DE TAREFAS</h1>
+    <p><label for="task">Tarefa</label>
+        <input type="text" id="task" size="30px"> <!-- MESMO ID DA LABEL -->
+
+    </p>
+    <button id="btnAdcionar" onclick="adicionarTarefa()">Adcionar Tarefa</button>
+
+    <button id="btnRemover" onclick="removerTarefa()">Remover Tarefa </button>
+
+    <p id="lista"></p>
 
 
-
+    
     <script src="./src/js/script.js"></script>
 </body>
 </html>
