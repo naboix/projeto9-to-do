@@ -1,0 +1,58 @@
+body {
+     background-image:linear-gradient(to right, rgb(192, 186, 179),white) ;
+     align-items: center;
+
+     
+     
+}
+
+#btnRemover {
+    border: 1px solid black;
+    border-radius: 100px;
+    color: rgb(255, 0, 0);
+    padding: 20px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+   
+    
+}
+
+
+
+
+
+#btnAdcionar {
+    border: 1px solid black;
+    border-radius: 100px;
+    color: rgb(20, 146, 58);
+    padding: 20px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px
+    margintop
+
+
+}
+
+#btnAdcionar:hover {
+    background-color: #00ba6c; 
+    color: white;
+}
+
+#btnRemover:hover {
+    background-color: #ff0000; 
+    color: white;
+}
+
+
+#div1{
+    width: 400px;
+    height: 200px;
+    margin: 300px auto;
+    text-align: center;
+    margin-top: 300px;
+}
+
