@@ -30,3 +30,14 @@ function adcionarTarefa(){
     }
     document.getElementById("tasks").focus();
 }
+
+
+//FUNCAO LISTAR TAREFAS
+
+function listarTarefas(){
+    let valor="";
+    for(let i=0; i<tarefas.length;i++){
+        valor += tarefas[i] +"<br>";
+    }
+    document.getElementById("lista").innerHTML =valor;
+}
